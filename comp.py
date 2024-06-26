@@ -4,7 +4,7 @@ from tile import letter_points
 import random
 
 def compplays(computer_rack):
-    word = "".join(random.sample(computer_rack, random.randint(2, 7)))
+    word = "".join(random.sample(computer_rack, random.randint(1, 7)))
     print(f"Computer plays: {word}")
     
     direction = random.choice(['H', 'V'])
